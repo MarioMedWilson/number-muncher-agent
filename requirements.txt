@@ -2,4 +2,4 @@ stable-baselines3[extra]
 gymnasium
 torch
 torchvision
-torchaudio
+torchaudio --index-url https://download.pytorch.org/whl/cu118
