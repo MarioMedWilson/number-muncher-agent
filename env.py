@@ -127,5 +127,45 @@ class Player(gym.Env):
         return total_reward
 
     def render(self):
-      pass
+      # env = Player(render=True)
+      # state, info = env.reset()
+      # print(state)
+      # done = False
+      
+      # while not done:
+      #     action = model.predict(state)
+      #     state, reward, done, clipped, info = env.step(action)
 
+
+      # print(f"Remaining Lives: {self.remaining_lives}, Remaining Primes: {self.remaining_number_of_primes}, "
+      #       f"Time Spent: {self.time_spent}")
+      # Initialize Pygame
+      # pygame.init()
+      # clock = pygame.time.Clock()
+      #
+      # # Constants
+      # SCREEN_WIDTH = 400
+      # SCREEN_HEIGHT = 400
+      # CELL_SIZE = SCREEN_WIDTH // 5
+      # AGENT_COLOR = (255, 0, 0)
+      # BOARD_COLOR = (200, 200, 200)
+      # FONT_SIZE = 30
+      #
+      # screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
+      # pygame.display.set_caption("Number Muncher")
+      #
+      # for i in range(5):
+      #     for j in range(5):
+      #         pygame.draw.rect(screen, BOARD_COLOR, (j * CELL_SIZE, i * CELL_SIZE, CELL_SIZE, CELL_SIZE), 0)
+      #         font = pygame.font.Font(None, FONT_SIZE)
+      #         number_text = font.render(str(self.board[i, j]), True, (0, 0, 0))
+      #         screen.blit(number_text, (j * CELL_SIZE + CELL_SIZE // 3, i * CELL_SIZE + CELL_SIZE // 3))
+      #
+      # # Draw the agent
+      # agent_rect = pygame.Rect(self.player_pos[1] * CELL_SIZE, self.player_pos[0] * CELL_SIZE, CELL_SIZE, CELL_SIZE)
+      # pygame.draw.rect(screen, AGENT_COLOR, agent_rect)
+      #
+      # pygame.display.flip()
+      # clock.tick(4)
+      
+      pass
